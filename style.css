@@ -1,0 +1,159 @@
+html, body {
+    font-family: 'Playfair';
+    margin: 0;
+    padding: 0 5em 0 5em;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 80%;
+}
+
+a {
+    position: relative;
+    margin-right: 1em;
+    color: black;
+    font-size: 2em;
+}
+
+.photo {
+    border: solid .5em black;
+}
+.text-red {
+    color: red;
+    font-size: 3em;
+    float: left;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.bg-gray {
+    background-color: lightgray;
+    width: 90%;
+    
+}
+
+.about {
+    overflow: auto;
+    margin: auto;
+}
+.left {
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: right;
+    margin-top: 6em;
+    
+}
+
+.right {
+    float: right;
+    width: 40%;
+    border: solid .25em black;
+    background-color: white;
+    margin: 3em 3em 3em 3em;
+    padding: .25em;
+}
+
+.logo {
+    border: 3px solid rgb(0, 0, 0);
+    float: left;
+}
+
+.navlinks {
+    float: right;
+}
+
+.hero {
+    clear: both;
+}
+
+.name {
+    float: left;
+}
+
+.lcq { 
+    float: left;
+}
+
+.photo {
+    padding: 3em;
+}
+
+.text {
+    width: 60%;
+    
+}
+
+
+
+.box {
+    width: 35em;
+    height: 25em;
+    margin: 1em;
+    padding: .25em;
+    float: left;
+    text-align: left;
+    border: solid 1em black;
+}
+
+.workbox {
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+.image {
+    display: block;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .workbox:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  input {
+      width: 75%;
+      padding: .5em;
+      margin-top: .5em;
+ }
+
+ #contact {
+     margin-top: 5em;
+ }
+ .footer {
+    margin-top: 5em; 
+    text-align: center;
+ }
+@font-face {
+    font-family: 'Playfair';
+    src: url('Lab1_Assets/Font/Playfair Display 700.ttf') format('truetype'),
+    url('Lab1_Assets/Font/PlayfairDisplay-Bold.woff') format('woff');
+}
